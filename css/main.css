@@ -1,9 +1,16 @@
+html, body{
+    background-color: #222222 !important;
+    font-family: Lato;
+}
+.robusta{
+    font-family: Robusta;
+}
 .tCenter{
     text-align: center;
 }
 .vCenter{
-    display: flex;
-    align-items: center;
+    display: flex !important;
+    align-items: center !important;
 }
 .gridInstaFeed{
     margin-top: 5%;
@@ -14,14 +21,36 @@
 }
 .ulRS a{
     text-decoration: none;
+    font-family: Lato;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .white{
     color: white;
 }
 
+/* Button Effect */
+.customBtn{
+    background-color: #51cac9;
+    border: solid #51cac9 2px;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: ease all 0.3s;
+}
+.customBtn:hover{
+    background-color: transparent;
+    text-decoration: none;
+    color: #51cac9;
+}
+.iconBtn{
+    margin-left: 10%;
+}
 /* Fonts */
 @font-face {
-    font-family: 'Robusta Demo';
+    font-family: 'Robusta';
     src: url('../fonts/Robusta Demo.eot');
     src: url('../fonts/Robusta Demo.woff2') format('woff2'),
     url('../fonts/Robusta Demo.eot?#iefix') format('embedded-opentype');

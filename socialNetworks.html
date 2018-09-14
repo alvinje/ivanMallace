@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Ivan Mallace</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/grid.min.css">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ivan Mallace</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- FONTS -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <!-- LATO -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
-    <!-- FONTS -->
-    <!-- LATO -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    </head>
+    <body class="container">
+        <!-- Filter Menu -->
+        <section class="white mt-5">
+            <h1 class="tCenter robusta">Toute mon actualité</h1>
+            <ul class="row tCenter ulRS mt-5">
+                <li class="col-2 offset-2">
+                    <a class="white" href="#ig">Instagram</a>
+                </li>
+                <li class="col-2">
+                    <a class="white" href="#fb">Facebook</a>
+                </li>
+                <li class="col-2">
+                    <a class="white" href="#tw">Tweeter</a>
+                </li>
+                <li class="col-2">
+                    <a class="white" href="#yt">Youtube</a>
+                </li>
+            </ul>
+            <div id="instafeed" class="row col-12"></div>
+            <div class="row mt-4 tCenter">
+                <a id="loadMoreBtn" class="white col-12 " href="#loadMoreBtn">Charger plus de photos</a>
+                <a class="col-2 offset-5 customBtn mt-3 white" href="https://www.instagram.com/yvanwallace/" target="_blank">Suivez moi <i class="fab fa-instagram iconBtn"></i></a>
+            </div>
+        </section>
+        <footer style="min-height: 10vh;">
 
-</head>
-<body class="container">
-<h1>Welcome RS</h1>
-
-<!-- Filter Menu -->
-<ul class="row tCenter ulRS">
-    <li class="col-2 offset-2">
-        <a class="white" href="#ig">Instagram</a>
-    </li>
-    <li class="col-2">
-        <a class="white" href="#fb">Facebook</a>
-    </li>
-    <li class="col-2">
-        <a class="white" href="#tw">Tweeter</a>
-    </li>
-    <li class="col-2">
-        <a class="white" href="#yt">Youtube</a>
-    </li>
-</ul>
-<div id="instafeed" class="row "></div>
-</body>
+        </footer>
+    </body>
 </html>
 <!-- SCRIPTS -->
 <script type="text/javascript" src="js/jQuery3.1.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/instafeed.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
