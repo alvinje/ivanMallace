@@ -9,6 +9,28 @@
     margin-top: 5%;
 }
 
+.ulRS{
+    list-style-type: none;
+}
+.ulRS a{
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Robusta Demo';
+    src: url('../fonts/Robusta Demo.eot');
+    src: url('../fonts/Robusta Demo.woff2') format('woff2'),
+    url('../fonts/Robusta Demo.eot?#iefix') format('embedded-opentype');
+    src: url('../fonts/RobustaDemo.woff') format('woff'),
+    url('../fonts/RobustaDemo.ttf') format('truetype'),
+    url('../fonts/RobustaDemo.svg#RobustaDemo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /* Image Hover Effect */
 .hovereffect {
     width: 100%;
